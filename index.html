@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script href="script.js" defer></script>
+</head>
+<body>
+    <h1>IT354 User Management System</h1>
+    <form action="" id="add-user-form" class="add-user-form">
+        <h2>Dodaj novog korisnika</h2>
+        <input type="text" placeholder="ime">
+        <input type="text" placeholder="email">
+        <button type="submit">Dodaj</button>
+    </form>
+    <form action="" id="change-user-form" class="change-user-form">
+        <h2>Azuriraj korisnika</h2>
+        <input type="text" placeholder="ID">
+        <input type="text" placeholder="ime">
+        <input type="text" placeholder="email">
+        <button type="submit">Azuriraj Korisnika</button>
+    </form>
+    <form action="" id="delete-user-form" class="delete-user-form">
+        <h2>Obrisi korisnika</h2>
+        <input type="text" placeholder="ID">
+        <button type="submit">Obrisi korisnika</button>
+    </form>
+    <form action="" id="lista-korisnika-form" class="lista-korisnika">
+        <h2>Lista korisnika</h2>
+        <button>Refreshuj listu korisnika</button>
+        <ul id="lista-korisnika" class="lista-korisnika"></ul>
+    </form>
+</body>
+</html>
