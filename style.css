@@ -11,12 +11,12 @@ button{
 }
 ul{
     list-style-type: none;
+    padding: 0;
 }
 li{
-    box-sizing: border-box;
     border: none;
     background-color: lightgray;
-    border-radius: 5%;
+    border-radius: 10%;
     padding: 10px;
-    margin: 5px;
+    margin-bottom: 5px;
 }

@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It354 User Management System</title>
     <link rel="stylesheet" href="style.css">
-    <script href="script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>IT354 User Management System</h1>
     <form action="" id="add-user-form" class="add-user-form">
         <h2>Dodaj novog korisnika</h2>
-        <input type="text" placeholder="ime">
-        <input type="text" placeholder="email">
+        <input type="text" placeholder="ime" id="addIme">
+        <input type="text" placeholder="email" id="addEmail">
+        <span>Omiljena boja</span>
+        <input type="color" id="addColor">
         <button type="submit">Dodaj</button>
     </form>
     <form action="" id="change-user-form" class="change-user-form">
         <h2>Azuriraj korisnika</h2>
-        <input type="text" placeholder="ID">
-        <input type="text" placeholder="ime">
-        <input type="text" placeholder="email">
+        <input type="text" placeholder="ID" id="updateID">
+        <input type="text" placeholder="ime" id="updateIme">
+        <input type="text" placeholder="email" id="updateEmail">
+        <input type="color" id="updateColor">
         <button type="submit">Azuriraj Korisnika</button>
     </form>
     <form action="" id="delete-user-form" class="delete-user-form">
         <h2>Obrisi korisnika</h2>
-        <input type="text" placeholder="ID">
+        <input type="text" placeholder="ID" id="deleteID">
         <button type="submit">Obrisi korisnika</button>
     </form>
-    <form action="" id="lista-korisnika-form" class="lista-korisnika">
+    <form action="" id="user-list-form" class="user-list">
         <h2>Lista korisnika</h2>
-        <button>Refreshuj listu korisnika</button>
-        <ul id="lista-korisnika" class="lista-korisnika">
-            <!--Hardcoded example for testing-->
-            <li>ID: 1, ime: John Doe, Email:john@example.com</li>
+        <button type="submit">Refreshuj listu korisnika</button>
+        <ul id="user-list" class="user-list">
+            
         </ul>
     </form>
 </body>
